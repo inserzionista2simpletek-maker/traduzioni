@@ -1,8 +1,8 @@
-# traduci-catalogo
+# traduzioni — modulo PrestaShop `simpletektraduzioni`
 
-Traduzione automatica del catalogo prodotti (it → en, fr, es, de, pt, pl, ro) con LibreTranslate self-hosted.
-Riscrittura pulita e testata di `legacy/traduci_catalogo_gui.py`.
+Traduzione automatica dei testi prodotto (it -> en, fr, es, de, pt, pl, ro) con LibreTranslate self-hosted, come **modulo custom PrestaShop 8.1.7**.
+Riscrittura pulita e testata di `legacy/traduci_catalogo_gui.py` (script Python).
 
-Stato: in sviluppo — vedi `docs/STATO.md`.
-Contesto e istruzioni per Claude: `CLAUDE.md`. Requisiti e piano: `docs/SPEC.md`. Difetti del legacy: `docs/ANALISI-BUG.md`.
-Passaggio cloud ⇄ locale: `docs/TRASFERIMENTO.md`.
+Stato: in sviluppo - vedi `docs/STATO.md`.
+Istruzioni per Claude: `CLAUDE.md`. Requisiti e piano: `docs/SPEC.md`. Convenzioni SimpleTek: `docs/CONVENZIONI-MODULI-SIMPLETEK.md`.
+Difetti del legacy: `docs/ANALISI-BUG.md`. Passaggio cloud/locale: `docs/TRASFERIMENTO.md`.

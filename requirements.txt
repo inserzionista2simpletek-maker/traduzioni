@@ -1,4 +1,0 @@
-requests
-openpyxl
-unidecode
-pytest

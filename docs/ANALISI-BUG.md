@@ -1,5 +1,10 @@
 # Analisi del codice legacy (`legacy/traduci_catalogo_gui.py`)
 
+> **Nota (2026-10-02):** il progetto è ora un **modulo PrestaShop PHP** (vedi `SPEC.md`). Questa analisi descrive il difetto nel legacy Python;
+> per ognuno va **evitata la stessa classe di errore nel modulo**, dove il "file Excel" diventa lo staging/catalogo e il "DB SQLite" diventa le tabelle `ps_stktrad_*`.
+> Traduzione concettuale: A1 = «non sovrascrivere mai il sorgente/catalogo durante la traduzione»; A2 = «lo stato interno è la fonte di verità, non il sorgente ri-letto»;
+> B4/B5/B8/C1/C5 sono specifici di Python/GUI e si sostituiscono con worker CLI + pagina BO (SPEC req. 8-9).
+
 Riferimenti = numeri di riga del file legacy. Spuntare `[x]` quando corretto + test di regressione.
 Priorità: **A** = perdita/corruzione dati o risultato sbagliato, **B** = qualità/performance, **C** = manutenzione.
 

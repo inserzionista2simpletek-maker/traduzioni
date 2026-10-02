@@ -1,11 +1,8 @@
+vendor/
+.phpunit.cache/
+.phpunit.result.cache
+composer.phar
 __pycache__/
-*.pyc
-.venv/
-venv/
-.pytest_cache/
-*.egg-info/
-build/
-dist/
 
 # dati reali / output: mai nel repo
 *.xlsx
