@@ -20,7 +20,7 @@ cd $env:USERPROFILE\Documents
 git clone https://github.com/inserzionista2simpletek-maker/traduzioni.git traduci-catalogo-lavoro   # oppure: cd traduci-catalogo; git pull
 cd traduci-catalogo-lavoro
 composer install            # solo dev (phpunit); il modulo non ne ha bisogno in produzione
-vendorin\phpunit
+vendor\bin\phpunit
 ```
 Poi seguire "Collaudo reale" in `docs/SPEC.md`: installazione del modulo sulla **copia gemella locale** (mai in produzione), LibreTranslate in WSL acceso, marcia a secco su ~50 prodotti.
 
