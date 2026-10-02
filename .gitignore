@@ -1,0 +1,23 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+
+# dati reali / output: mai nel repo
+*.xlsx
+*.xls
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+*.log
+*.tmp_export_*
+legenda_ricorrenze.json
+report*.csv
+report*.json
+.env
+!tests/fixtures/*.json
