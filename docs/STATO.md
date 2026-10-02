@@ -7,6 +7,8 @@ Ultimo aggiornamento: 2026-10-02 (preparazione contesto, nessun codice nuovo scr
 - Script originale in `legacy/` (intatto).
 - Decisione utente 2026-10-02: **modulo custom PrestaShop** (non tool Python).
 
+- Decisione utente 2026-10-02: niente tunnel/collegamento; scrittura offline con `docs/CHECKLIST-REVISIONE.md`.
+
 ## Da fare
 - Tutte le fasi 0-8 del piano in `docs/SPEC.md`.
 

@@ -90,7 +90,10 @@ Il motore non include né usa classi PrestaShop: così gira nei test del cloud s
    **Non collaudabili nel cloud**: scriverle con cura, lint, e marcarle "DA COLLAUDARE SU COPIA" in `docs/STATO.md`.
 7. `TradApply` (marcia a secco, una lingua, registro, rollback) + export CSV.
 8. Pagina BO + report + `README.md`/`PIANO.md` del modulo + guida d'uso breve.
-Ogni fase: test verdi, commit, `docs/STATO.md` aggiornato. Domande bloccanti: chiederle all'utente all'inizio (vedi sotto), il resto usa il default.
+Ogni fase si chiude con `docs/CHECKLIST-REVISIONE.md` (lint, rilettura, test avversari), poi commit e `docs/STATO.md` aggiornato. Domande bloccanti: chiederle all'utente all'inizio (vedi sotto), il resto usa il default.
+
+## Modalità di lavoro attuale (2026-10-02)
+Nessun collegamento a LibreTranslate o alla macchina locale: si scrive e si prova solo offline (PHPUnit, fake, server mock). Le prove reali arrivano dopo, in locale.
 
 ## Collaudo reale (lo fa l'utente in locale — mai in produzione)
 Sulla macchina locale, sulla **copia gemella** del sito (stesso schema dei moduli precedenti: docker `tests/copia/`, porta dedicata) con LibreTranslate vero:

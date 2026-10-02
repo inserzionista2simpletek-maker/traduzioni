@@ -28,6 +28,7 @@ Quindi:
 - Repo (anche se privato): **mai** credenziali, IP, chiavi, `.xlsx`/`.db`/log. I dati di prova sono sintetici.
 
 ## Come lavorare
+0. **Modalità senza collegamento**: nessun tunnel, nessun accesso a LibreTranslate o alla macchina dell'utente. Si scrive e si prova solo offline. Per garantire "nessun errore" senza prove reali, ogni fase si chiude con `docs/CHECKLIST-REVISIONE.md`: leggila prima di cominciare.
 1. All'inizio **fai all'utente le domande bloccanti** della SPEC (§ Domande aperte, punti 1-3), in un'unica volta, proponendo il default. Poi procedi.
 2. Lavora il "Piano a fasi" della SPEC, una fase alla volta: test verdi → commit in italiano → aggiorna `docs/STATO.md`.
 3. Ogni difetto di `docs/ANALISI-BUG.md` corretto: test di regressione + spunta `[x]` con riferimento al commit.
